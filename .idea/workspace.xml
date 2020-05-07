@@ -153,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588813314034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588813493398" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -171,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumSubArray">
+  <component name="RunManager" selected="Application.MoveZeroes">
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="april2020.HappyNumber" />
       <module name="LeetCode30Day" />
@@ -187,6 +187,19 @@
     </configuration>
     <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="april2020.MaximumSubArray" />
+      <module name="LeetCode30Day" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="april2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="april2020.MoveZeroes" />
       <module name="LeetCode30Day" />
       <extension name="coverage">
         <pattern>
@@ -215,9 +228,11 @@
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.HappyNumber" />
       <item itemvalue="Application.MaximumSubArray" />
+      <item itemvalue="Application.MoveZeroes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.SingleNumber" />

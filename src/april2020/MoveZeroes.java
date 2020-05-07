@@ -7,15 +7,18 @@ package april2020;
 public class MoveZeroes {
     /**
      * Using a strategy similar to Lumoto's Partition scheme for quick sort
-     * @param nums
+     *
      */
+    static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
     static void moveZeroes(int[] nums) {
         int i = 0;
         for(int j = 0; j < nums.length; j++) {
             if(nums[j] != 0 ){
-                int temp = nums[j];
-                nums[j] = nums[i];
-                nums[i] = temp;
+                swap(nums, i, j);
                 i++;
             }
         }
@@ -30,8 +33,8 @@ public class MoveZeroes {
         System.out.println();
     }
 
-    public static void main() {
-        int[] arr = {0,1,0,3,12};
+    public static void main(String[] args) {
+        int[] arr = {0,1,0,3,12, 0, 1};
         moveZeroes(arr);
         printArray(arr);
     }
