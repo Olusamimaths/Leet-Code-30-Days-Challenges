@@ -20,11 +20,24 @@ package april2020;
  *              engaging multiple transactions at the same time. You must sell before buying again.
  */
 
+/**
+ * This problem can be solved by realizing that we are going to sum profits over consecutive transactions
+ * (Peak and Valley)
+ * for example [7,1,5,3,6,4]:
+ * from 1 to 5 profit = 4, from 3 to 6 profit = 3 i.e total profit = 7
+ *
+ * example 2: [1,2,3,4,5]
+ * from 1 to 2 p = 1,
+ * from 2 to 3 p = 1,
+ * from 3 to 4 p = 1,
+ * from 4 to 5 p = 1
+ * Total profit =  4
+ */
 public class BestTimeToBuySell {
     static int maxProfit(int[] prices) {
         int max_profit = 0;
-        for(int i = 0; i < prices.length-1; i++) {
-            if(prices[i+1] > prices[i]) max_profit += prices[i+1] - prices[i];
+        for(int i = 1; i < prices.length; i++) {
+            if(prices[i] > prices[i-1]) max_profit += prices[i] - prices[i-1];
         }
         return max_profit;
     }
