@@ -41,8 +41,35 @@ public class BestTimeToBuySell {
         }
         return max_profit;
     }
+
+    /**
+     * Using sub profits:
+     * From a day X, the buying day will be the last continuous day that the price is smallest.
+     * Then, the selling day will be the last continuous day that the price is biggest.
+     * @param {int[]} prices
+     * @return {int} maxProfit
+     */
+    static int anotherSolution(int[] prices) {
+        int buy, sell, max_profit = 0, i = 0;
+        int N = prices.length-1;
+        while(i < N) {
+            while (i < N && prices[i+1] <= prices[i]) i++;
+            buy = prices[i];
+
+            while (i < N && prices[i+1] > prices[i]) i++;
+            sell = prices[i];
+
+            max_profit += sell - buy;
+            /** this is for tracing
+            System.out.println("buy: " + buy);
+            System.out.println("sell: " + sell);
+             **/
+
+        }
+        return max_profit;
+    }
     public static void main(String[] args) {
-        int arr[] = {7,1,5,3,6,4};
-        System.out.println("Max profit " + maxProfit(arr));
+        int arr[] = {7, 6, 5, 3, 1};
+        System.out.println("Max profit " + anotherSolution(arr));
     }
 }
