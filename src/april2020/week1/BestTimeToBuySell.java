@@ -1,4 +1,4 @@
-package april2020;
+package april2020.week1;
 
 /**
  * Say you have an array prices for which the ith element is the price of a given stock on day i.

@@ -1,4 +1,4 @@
-package april2020;
+package april2020.week1;
 
 import java.util.Arrays;
 

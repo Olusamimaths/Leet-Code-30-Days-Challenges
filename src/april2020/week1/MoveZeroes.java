@@ -1,4 +1,4 @@
-package april2020;
+package april2020.week1;
 
 /**
  * Given an array nums, write a function to move all 0's to the end of it

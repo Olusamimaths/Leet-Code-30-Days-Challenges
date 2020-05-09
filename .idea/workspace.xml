@@ -178,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589003326571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589003335602" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -198,11 +198,11 @@
   </component>
   <component name="RunManager" selected="Application.GroupAnagrams">
     <configuration name="BestTimeToBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april2020.BestTimeToBuySell" />
+      <option name="MAIN_CLASS_NAME" value="april2020.week1.BestTimeToBuySell" />
       <module name="LeetCode30Day" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="april2020.*" />
+          <option name="PATTERN" value="april2020.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +211,11 @@
       </method>
     </configuration>
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april2020.GroupAnagrams" />
+      <option name="MAIN_CLASS_NAME" value="april2020.week1.GroupAnagrams" />
       <module name="LeetCode30Day" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="april2020.*" />
+          <option name="PATTERN" value="april2020.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +224,11 @@
       </method>
     </configuration>
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april2020.HappyNumber" />
+      <option name="MAIN_CLASS_NAME" value="april2020.week1.HappyNumber" />
       <module name="LeetCode30Day" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="april2020.*" />
+          <option name="PATTERN" value="april2020.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +237,11 @@
       </method>
     </configuration>
     <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april2020.MaximumSubArray" />
+      <option name="MAIN_CLASS_NAME" value="april2020.week1.MaximumSubArray" />
       <module name="LeetCode30Day" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="april2020.*" />
+          <option name="PATTERN" value="april2020.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,11 +250,11 @@
       </method>
     </configuration>
     <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april2020.MoveZeroes" />
+      <option name="MAIN_CLASS_NAME" value="april2020.week1.MoveZeroes" />
       <module name="LeetCode30Day" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="april2020.*" />
+          <option name="PATTERN" value="april2020.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
