@@ -24,6 +24,20 @@ public class BTDiameter {
         return 1 + Math.max(findMaxDepth(root.left), findMaxDepth(root.right));
     }
 
+    /**
+     * This approach depends on 3 assumptions:
+     * 1. The diameter is just the height of left subtree + height of right subtree of a given node
+     * 2. The diameter may pass through the root
+     * 3. The diameter may not pass through the root
+     * We compute the diameter in both cases, since we wouldn't know before hand
+     * which case we are dealing with.
+     * Then we return the max of both as the final_diameter
+     *
+     * Time Complexity: O(n^2)
+     * Space Complexity: O(n^2)
+     * @param root
+     * @return diameter
+     */
     public static int computeDiameter(Node root) {
         if(root == null) return  0;
         // for each node, go all the way left and right
@@ -39,8 +53,22 @@ public class BTDiameter {
     }
 
     // Optimized solution
+
+    /**
+     * This approach uses the post order traversal of a BT
+     * We start from the bottom and return the height of subtree rooted at a given node
+     * to its parent node.
+     * During the process, we keep a global 'diameter' variable that we update,
+     * each time the diameter of the subtree rooted at a given node is greater than the
+     * current stored diameter.
+     *
+     * Time Complexity: O(n)
+     * Space Complexity: O(n)
+     * @param node
+     * @return
+     */
     public static int depthFS(Node node) {
-        // we are returning -1 so as to remove counting the leaf node as part of the height
+        // we are returning -1 so as to not count the leaf node as part of the height
         if(node == null) return -1; // when you get to a leaf node, subtract 1 from height so as not to count it.
         // compute leftHeight
         int leftHeight = 1 + depthFS(node.left); // count height by adding 1 for each level
@@ -49,7 +77,7 @@ public class BTDiameter {
         // compute the diameter of subtree rooted at the given node
         // diameter of subtree rooted at the given node = leftHeight + rightHeight
         diameter = Math.max(diameter, leftHeight + rightHeight);
-        // return the height of subtree passing through the given node
+        // return the height of subtree rooted at the given node
         return Math.max(leftHeight, rightHeight);
     }
 
