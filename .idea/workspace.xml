@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd18b082-341f-4584-9382-1338851c8561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/april2020/week2/BTDiameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/april2020/week2/BackSpaceCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/april2020/week2/MiddleOfLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/april2020/week2/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/april2020/week2/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode30Day/april2020/week1/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode30Day/april2020/week1/GroupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/april2020/week1/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/april2020/week1/GroupAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589003335602" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Algorithms/500-Data-Structure-and-Algorithm-Problems" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -162,7 +156,7 @@
       <workItem from="1595993453107" duration="2473000" />
       <workItem from="1596426069155" duration="2744000" />
       <workItem from="1596551244185" duration="8120000" />
-      <workItem from="1596609770166" duration="1033000" />
+      <workItem from="1596609770166" duration="1663000" />
     </task>
     <servers />
   </component>

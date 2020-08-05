@@ -4,4 +4,4 @@ https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/
 
 ## Progress
 - Completed Week 1 of April
-- Completed 4/7 of Week'2 Questions
+- Completed 4/7 of Week 2 Questions
