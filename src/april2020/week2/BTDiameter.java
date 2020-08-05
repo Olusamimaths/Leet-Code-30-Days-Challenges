@@ -57,7 +57,7 @@ public class BTDiameter {
     /**
      * This approach uses the post order traversal of a BT
      * We start from the bottom and return the height of subtree rooted at a given node
-     * to its parent node.
+     * to its parent node. 🎨
      * During the process, we keep a global 'diameter' variable that we update,
      * each time the diameter of the subtree rooted at a given node is greater than the
      * current stored diameter.
