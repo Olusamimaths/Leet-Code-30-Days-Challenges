@@ -14,7 +14,7 @@ public class GroupAnagrams {
 
     /**
      *
-     * @param String[] strs : example
+     * @param String strs : example
      * @return List<List<String>> list: List containing list of grouped anagrarms
      * Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
      * Output:
@@ -47,5 +47,34 @@ public class GroupAnagrams {
         }
 
         return list;
+    }
+
+
+    public List<List<String>> groupAnagrams2(String[] strs) {
+        if(strs.length == 0) return new ArrayList();
+        Map<String, List> map = new HashMap<>();
+        // a count array for the 26 letters of the alphabet
+        int[] count = new int[26];
+        // loop through for each string
+        for(String s : strs) {
+            // initialize count of letters in the string to 0
+            Arrays.fill(count, 0);
+            // count each char, starting at 0 for 'a'
+            for(char c : s.toCharArray()) count[c - 'a']++;
+
+            // build a string in the format #2#1#0#0#0.....#0
+            StringBuilder sb = new StringBuilder("");
+            for(int i = 0; i < 26; i++) {
+                sb.append("#");
+                sb.append(count[i]);
+            }
+
+            String key = sb.toString();
+            // put into map just like in former implementation abouve
+            if(!map.containsKey(key)) map.put(key, new ArrayList());
+            map.get(key).add(s);
+        }
+        // shorter way to convert map values to array list
+        return new ArrayList(map.values());
     }
 }
